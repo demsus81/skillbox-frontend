@@ -133,16 +133,16 @@ body {
 }
 
 .header-sign {
-  display: inline-block;
-  width: 155px;
+
   font-size: 16px;
   line-height: 16px;
-  text-align: right;
+
   color: #c93;
   background-image: url(../img/input.png);
   background-position: left;
-  background-size: auto;
+  background-size: 21px 12px;
   background-repeat: no-repeat;
+  padding-left: 28px;
 
 }
 
