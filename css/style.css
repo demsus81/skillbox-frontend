@@ -275,6 +275,15 @@ body {
   background-repeat: no-repeat;
 }
 
+/* by about */
+
+.aboutUs-text {
+  max-width: 888px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000;
+}
+
 /* services */
 
 .services-list {
