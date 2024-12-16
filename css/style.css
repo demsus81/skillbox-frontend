@@ -212,6 +212,7 @@ body {
   padding-left: 40px;
   padding-bottom: 40px;
   width: 420px;
+  min-height: 258px;
 }
 
 .spetial-offer-item-title {
