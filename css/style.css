@@ -99,8 +99,8 @@ body {
 
 .section-title {
   margin: 0;
-  margin-left: 40px;
   margin-bottom: 20px;
+  padding-left: 40px;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -245,21 +245,21 @@ body {
 
 .offer-background-1 {
   background-image: url(../img/img_art1.png);
-  box-sizing: cover;
+
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .offer-background-2 {
   background-image: url(../img/img_art2.png);
-  box-sizing: cover;
+
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .offer-background-3 {
   background-image: url(../img/img_art3.png);
-  box-sizing: cover;
+
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -292,11 +292,36 @@ body {
 
 .services-list-item {
   width: 573px;
-  /* margin-bottom: 24px; */
+  margin-bottom: 24px;
+
 }
 
 .services-list-item:not(:nth-last-child(-n+2)) {
   margin-bottom: 24px;
+}
+
+.services-background-1 {
+  border-image: url(../img/service1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.services-background-2 {
+  border-image: url(../img/service2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.services-background-3 {
+  border-image: url(../img/service3.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.services-background-4 {
+  border-image: url(../img/service4.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .service-item-info {
@@ -312,11 +337,28 @@ body {
   margin: 0;
   margin-bottom: 15px;
   padding-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #c93;
+}
+
+.services-item-link {
+  padding-right: 15px;
+  background-image: url(../img/link.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .services-text {
   margin: 0;
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000;
 }
+
+
 
 /* advantage */
 
