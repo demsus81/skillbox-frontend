@@ -198,6 +198,7 @@ body {
 }
 .spetial-offer-article {
   width: 573px;
+  min-height: 258px;
   margin-bottom: 20px;
   margin-right: 24px;
 }
@@ -212,7 +213,6 @@ body {
   padding-left: 40px;
   padding-bottom: 40px;
   width: 420px;
-  min-height: 258px;
 }
 
 .spetial-offer-item-title {
@@ -294,7 +294,7 @@ body {
 .services-list-item {
   width: 573px;
   margin-bottom: 24px;
-
+  min-height: 330px;
 }
 
 .services-list-item:not(:nth-last-child(-n+2)) {
@@ -302,25 +302,25 @@ body {
 }
 
 .services-background-1 {
-  border-image: url(../img/service1.jpg);
+  background-image: url(../img/service1.jpg);
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .services-background-2 {
-  border-image: url(../img/service2.jpg);
+  background-image: url(../img/service2.jpg);
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .services-background-3 {
-  border-image: url(../img/service3.jpg);
+  background-image: url(../img/service3.jpg);
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .services-background-4 {
-  border-image: url(../img/service4.jpg);
+  background-image: url(../img/service4.jpg);
   background-position: top;
   background-repeat: no-repeat;
 }
