@@ -373,18 +373,11 @@ body {
 
 .placement-list {
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .placement-list-item {
   width: 374px;
-}
-
-.placement-list-item:not(:nth-child(3n)) {
-  margin-right: 24px;
-}
-
-.placement-list-item:not(:nth-last-child(-n+3)) {
-  margin-bottom: 24px;
 }
 
 .placement-article-text {
@@ -399,6 +392,35 @@ body {
 .placement-article-title {
   margin: 0;
   margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement-text-grey {
+  font-size: 16px;
+  line-height: 16px;
+  color: #999;
+}
+
+.placement-text-price {
+  font-size: 16px;
+  line-height: 16px;
+  color: #999;
+}
+
+.placement-text-right {
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement-price-number {
+  padding-right: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
 }
 
 .btn-placement {
