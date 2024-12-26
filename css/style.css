@@ -376,6 +376,11 @@ body {
   gap: 24px;
 }
 
+.placement-article {
+  background-color: #fff;
+  border-radius: 15px;
+}
+
 .placement-list-item {
   width: 374px;
 }
@@ -431,4 +436,18 @@ body {
 .btn-placement {
   display: block;
   margin-top: 20px;
+}
+
+.placement-last-item {
+  background-image: url(../img/place_img9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.placement-last-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
 }
