@@ -387,6 +387,11 @@ body {
 .placement-article-top {
   justify-content: space-between;
   margin-bottom: 16px;
+
+}
+
+.placement-article-price {
+  gap: 10px;
 }
 
 .placement-article-title {
@@ -416,7 +421,7 @@ body {
 }
 
 .placement-price-number {
-  padding-right: 5px;
+  /* padding-right: 10px; */
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
