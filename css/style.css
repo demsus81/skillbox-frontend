@@ -377,8 +377,10 @@ body {
 }
 
 .placement-article {
+  min-height: 440px;
   background-color: #fff;
   border-radius: 15px;
+  flex-direction: column;
 }
 
 .placement-list-item {
@@ -402,15 +404,18 @@ body {
 .placement-article-title {
   margin: 0;
   margin-bottom: 16px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #000;
 }
 
 .placement-text-grey {
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 16px;
   color: #999;
+
 }
 
 .placement-text-price {
@@ -426,7 +431,6 @@ body {
 }
 
 .placement-price-number {
-  /* padding-right: 10px; */
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -435,7 +439,14 @@ body {
 
 .btn-placement {
   display: block;
-  margin-top: 20px;
+  min-width: 100px;
+  min-height: 42px;
+  padding: 13px 20px;
+  outline: solid 1px #c93;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #c93;
 }
 
 .placement-last-item {
@@ -443,6 +454,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
+  text-align: center;
 }
 
 .placement-last-link {
@@ -450,4 +462,6 @@ body {
   font-size: 20px;
   line-height: 40px;
   color: #fff;
+  position: relative;
+  top: 373px;
 }
